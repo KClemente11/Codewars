@@ -3,7 +3,10 @@
 // Note: Empty arrays should return 0.
 
 function findAverage(array) {
-    let total = array.reduce((acc,c) => acc + c,0)
-    
-    return total / array.length
+    if(array.length > 0){
+      let total = array.reduce((acc,c) => acc + c,0)
+     return total / array.length
+    }else{
+      return 0
+    }
   }
