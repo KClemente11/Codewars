@@ -8,6 +8,6 @@
 
 function sum(){
     var sum = 0
-    for(let i = 0; i<arguments.length; i++)
-    sum += arguments[i]
+    for(let i = 0; i<arguments.length; i++){
+    sum += arguments[i]}
 }
